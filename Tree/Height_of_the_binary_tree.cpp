@@ -6,10 +6,10 @@ struct node
     node* left;
     node* right;
 };
-node* root=NULL;
+node* root=NU
 node* getnew(int data)
 {
-    node* temp=new node();
+    node* temp=new no
     temp->data=data;
     temp->left=temp->right=NULL;
     return temp;
